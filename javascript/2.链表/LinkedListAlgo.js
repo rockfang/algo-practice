@@ -250,23 +250,23 @@ sList.append('just') // die -> never -> legends -> just
 console.log(sList.findMiddleNode()) //[never,legends]
 
 // 检测合并
-// const listA = new SingleLinkedList()
-// listA.append(20)
-// listA.append(18)
-// listA.append(15)
-// listA.append(13)
+const listA = new SingleLinkedList()
+listA.append(20)
+listA.append(18)
+listA.append(15)
+listA.append(13)
 
-// const listB = new SingleLinkedList()
-// listB.append(19)
-// listB.append(17)
-// listB.append(14)
-// listB.append(10)
-// let mergeList = mergeSortedList(listA.head.next, listB.head.next)
+const listB = new SingleLinkedList()
+listB.append(19)
+listB.append(17)
+listB.append(14)
+listB.append(10)
+let mergeList = mergeSortedList(listA.head.next, listB.head.next)
 
-// console.log('--------------------------')
-// while (mergeList !== null) {
-// 	console.log(mergeList.el)
-// 	mergeList = mergeList.next
-// }
+console.log('--------------------------')
+while (mergeList !== null) {
+	console.log(mergeList.el)
+	mergeList = mergeList.next
+}
 
-// listA.display()
+listA.display()
