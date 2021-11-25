@@ -1,4 +1,6 @@
-class Node {
+/**
+ * 使用带头链表实现栈
+ */ class Node {
 	constructor(val) {
 		this.el = val
 		this.next = null
